@@ -1,0 +1,35 @@
+<header class ="bg-primary-midnight mb-20">
+    <nav>
+        <ul class ="flex justify-between my-10 ">
+            <li class="text-2xl font-montserrat text-off-white font-semibold hover:text-secondary-orange ml-36">
+                <a [routerLink]="['/']">
+                    Alan Vadeleau
+                </a>
+            </li>
+            
+            <div class="flex mr-24 justify-between">
+                <li class="text-xl font-montserrat text-off-white hover:text-secondary-orange">
+                    <a [routerLink]="['/']" routerLinkActive="font-semibold" [routerLinkActiveOptions]="{exact: true}">
+                        Accueil
+                    </a>
+                </li>
+
+                <li class="text-xl font-montserrat text-off-white hover:text-secondary-orange ml-11">
+                    <a [routerLink]="['/profil']" routerLinkActive="font-semibold" [routerLinkActiveOptions]="{exact: true}">
+                        Profil
+                    </a>
+                </li>
+                <li class="text-xl font-montserrat text-off-white hover:text-secondary-orange ml-11">
+                    <a [routerLink]="['/projects']" routerLinkActive="font-semibold" [routerLinkActiveOptions]="{exact: true}">
+                        Projects
+                    </a>
+                </li>
+                <li class="text-xl font-montserrat text-off-white hover:text-secondary-orange ml-11">
+                    <a [routerLink]="['/contact']" routerLinkActive="font-semibold" [routerLinkActiveOptions]="{exact: true}">
+                        Contact
+                    </a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+</header>
